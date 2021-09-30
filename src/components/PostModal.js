@@ -97,7 +97,7 @@ function PostModal(props) {
               />
               <label htmlFor="video">Video URL</label>
               {videoLink && (
-                <ReactPlayer width="{100%}" height="{50%}" url={videoLink} />
+                <ReactPlayer width="{100%}" height="{60%}" url={videoLink} />
               )}
             </VideoContent>
           )}
