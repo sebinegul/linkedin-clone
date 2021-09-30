@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import PostModal from "./PostModal";
+import ReactPlayer from "react-player";
 import { connect } from "react-redux";
 import { getArticleAPI } from "../actions";
-import articleReducer from "../reducers/articleReducer";
-import ReactPlayer from "react-player";
+
 
 function Main(props) {
   const [showModal, setShowModal] = useState(false);

@@ -95,7 +95,7 @@ export function postArticleAPI(payload) {
           image: payload.user.photoURL,
         },
         video: payload.video,
-        sharedImg: " ",
+        sharedImg: "",
         comments: 0,
         description: payload.description,
       });
