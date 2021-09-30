@@ -49,6 +49,9 @@ const Nav = styled.nav`
     width: 135px;
     height: 34px;
   }
+  @media(max-width:768px){
+    padding: 12px 0 5px;
+  }
 `;
 
 const Join = styled.a`
